@@ -5,7 +5,7 @@ const tinyLinkSchema = new Schema({
         type:String,
         required:true,
         unique:true,
-        match:/^[A-Za-z0-9]{6,8}$/
+        match:/^[A-Za-z0-9]{6,12}$/
     },
     targetURL:{
         type:String,
